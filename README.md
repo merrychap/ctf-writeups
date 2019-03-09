@@ -13,7 +13,7 @@ If you don't know what CTF is, then you can read about it [here](https://ctftime
 
 Here are mostly my writeups for different CTF tasks. "Mostly" means that other people could took part in the solution as well as me. So, I will try to mention all of them :D
 
-All writeups are about __Reverse Engineering__ and __Binary Exploitation__ tasks. No crypto, forensics, and others. I'm not specialized in other categories. If you want to explore writeups on other categories, then you're welcome to proceed on [VoidHack writeups page](https://github.com/VoidHack/write-ups)
+All writeups are about __Reverse Engineering__ and __Binary Exploitation__ tasks. No crypto, forensics, and others. I'm not specialized in other categories. In case you want to explore writeups on other categories, then you can visit [VoidHack writeups page](https://github.com/VoidHack/write-ups) (people say it's a great resource to learn cool hacker stuff)
 
 I sorted all writeups by years and CTF names, so you're welcome to explore them! By the way, I will (at least, I will try to) mirror these writeups to [VoidHack writeups page](https://github.com/VoidHack/write-ups), so you can find them here or there.
 
