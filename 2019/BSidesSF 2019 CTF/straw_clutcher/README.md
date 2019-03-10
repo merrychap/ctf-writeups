@@ -68,7 +68,7 @@ struct file_t {
 };
 ```
 
-So, by overflowing filename we can overwrite `file_size` and `data` pointer. 
+So, by overflowing filename we can overwrite `file_size, `data` and `prev_file` fields. 
 
 
 ## Leaking addresses
