@@ -18,7 +18,7 @@ I sorted all writeups by years and CTF names, so you're welcome to explore them!
 
 # About me
 
-My name is Mike (also known as "konata" and "merrychap") and I'm a member of [voidka](https://ctftime.org/team/11532) and [VoidHack](https://ctftime.org/team/21137) teams. I'm open to any discussion and you can contact me via email.
+My name is Mike (also known as "konata" and "merrychap") and I'm a member of [voidka](https://ctftime.org/team/11532) and [VoidHack](https://ctftime.org/team/21137) teams. I'm open to any discussion and you can contact me via email. Also, [my profile on ctftime](https://ctftime.org/user/11665)
 
 # Contributions
 
