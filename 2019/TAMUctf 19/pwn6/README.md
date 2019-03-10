@@ -214,7 +214,7 @@ After running the exploit we just connect to the opened reverse shell and get ou
 
 ## Little notes
 
-I talked to admin of this task and he said that this service was designed as pwn playground and there were a lot of different vulns. But my way of exploitation doesn't use any of designed function and sqlite database. I hacked the way of communication between the client and the server. So, it was pretty cool and interesting challenge. Thanks to the admin!
+I talked the to admin of this task and he said that this service was designed as a pwn playground and there were a lot of different vulns. But my way of exploitation doesn't use any of designed function and sqlite database. I hacked the way of communication between the client and the server. So, it was pretty cool and interesting challenge. Thanks to the admin!
 
 And Konata picture as a reward for the stolen flag :D
 
