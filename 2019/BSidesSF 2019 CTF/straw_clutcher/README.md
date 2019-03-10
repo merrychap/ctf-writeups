@@ -48,7 +48,7 @@ By the way, files are basically linked-list and each file has a pointer to the p
 
 ## Vulnerability
 
-After looking around the code searching the vuln I found some interesting place in `RENAME` function:
+After looking around the code searching for the vuln I found some interesting place in `RENAME` function:
 
 <p align="center">
   <img src="screens/vuln.png">
