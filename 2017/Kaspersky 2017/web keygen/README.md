@@ -17,7 +17,7 @@ We are given the [link](http://95.85.55.168/vmctf.html) to the password validato
   <img src="screens/html.png">
 </p>
 
-It seems interesting. We can see ~~cocoded~~ obfuscated javascript code and function ```GetFlag``` where we input some string. First of all, let's replace all this ```CoCo``` with a more readable name like ```a[Number of Co]```. [The code is here](a_changed.js). It's already little changed, but still doesn't mean much. You can see how we tried to understand what this thing is, but ended up with nothing.
+It seems interesting. We can see ~~cocoded~~ obfuscated javascript code and function ```GetFlag``` where we input some string. First of all, let's replace all this ```CoCo``` with a more readable name like ```a[Number of Co]```. [The code is here](https://gist.github.com/merrychap/b00e9a2045622f81cea13ed76b36555d). It's already little changed, but still doesn't mean much. You can see how we tried to understand what this thing is, but ended up with nothing.
 
 ### Reversing the code
 Now, we can look at the name of the html. VMctf. Virtual Machine? Let's look at the code from this perspective.
@@ -59,7 +59,7 @@ constructor(bufferNumbers) {
 
 Okay, here ```dataViewBuffer``` is the memory with .text section and the empty stack. ```counter``` is ```IP``` register and ```numberDV``` is set of 32-bit registers.
 
-After some time of reversing this code, we get [something like this](vm.js). I should mention that there are 4 memory managers: 
+After some time of reversing this code, we get [something like this](https://gist.github.com/merrychap/b5d63b535513b995942c042095991f04). I should mention that there are 4 memory managers: 
  - ```UniRegHandler``` — manager for 32-, 16- and 8-bit registers.
  - ```ConstantHandler``` — used for getting constants from .text's section code.
  - ```AddressHandler8``` — manager for arbitrary 8-bit addresses.
