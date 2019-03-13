@@ -40,7 +40,6 @@ from pwn import *
 
 def main():    
     libc = ELF('./libc.so.6')
-    # pc = process(['./ld-linux.so.2', './echo_chamber'], env={'LD_PRELOAD': './libc.so.6'})
 
     pc = remote('echochamber.uni.hctf.fun', 13374)
 
