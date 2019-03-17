@@ -63,12 +63,14 @@ struct file_t {
     char filename[0x20];
     unsigned long file_size;
     char *data;
-    long dummy; /* it's not used as I understood */
+    long free_option; /* clear a chunk via munmap or free */
     struct file_t *prev_file;
 };
 ```
 
 So, by overflowing filename we can overwrite `file_size, `data` and `prev_file` fields. 
+
+By the way, thanks to [iddm](gyiddm@gmail.com) to point me out that free_option is actually present in the structure (previously I wrote that this a dummy structure field and isn't used in the binary, but I obviously was wrong)
 
 
 ## Leaking addresses
