@@ -1,0 +1,10 @@
+version: '2.2'
+services:
+  tmpfs:
+    cap_add:
+      - SYS_PTRACE
+    build: .
+    restart: always
+    ports:
+      - "0.0.0.0:30047:30047"
+    mem_limit: 64m

@@ -1,0 +1,16 @@
+service tmpfs
+{
+        disable = no
+        type = UNLISTED
+        wait = no
+        server = /home/tmpfs/run.sh
+        socket_type = stream
+        protocol = tcp
+        user = tmpfs
+        port = 30047
+        flags = REUSE
+        instances = 20
+        per_source = 5
+        rlimit_cpu = 3
+        nice = 18
+}
