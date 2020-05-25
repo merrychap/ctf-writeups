@@ -2,7 +2,7 @@
 
 ## fakev
 
-This challenge was solved by [@korniltsev](https://ctftime.org/user/54962), [@mostobriv](https://ctftime.org/user/25913), [@n00bie](https://ctftime.org/user/50936) and me.
+This challenge was solved by [@korniltsev](https://ctftime.org/user/54962), [@mostobriv](https://ctftime.org/user/25913), [@n00bie](https://ctftime.org/user/50936) and me (on behalf of [Corrupted Pwnis](https://ctftime.org/team/87386)).
 
 Writeup will not be super detailed, but rather brief overview of the solution.
 
